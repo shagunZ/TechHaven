@@ -1,15 +1,19 @@
 "use client"
 import React from 'react'
 import classes from './index.module.scss'
-import { inclusions, noHeaderFooterUrls } from '../../../constants'
+import { inclusions, noHeaderFooterUrls, profileNavItems } from '../../../constants'
 import { Gutter } from '../../Gutter';
 import { usePathname } from 'next/navigation';
 import Image from 'next/image';
 import { Footer } from '../../../../payload/payload-types';
 import Link from 'next/link';
+import { Button } from '../../Button';
 
 const FooterComponent = ({ footer }: { footer: Footer })  => {
     const pathname = usePathname();
+
+    const navItems = footer?.navItems || [];
+    
   return (
     <footer className={noHeaderFooterUrls.includes(pathname) ? classes.hide : ''}>
         <Gutter>
@@ -32,10 +36,30 @@ const FooterComponent = ({ footer }: { footer: Footer })  => {
         </Gutter>
 
         <div className={classes.footer}>
+            <Gutter>
+                <div className={classes.wrap}>
             <Link href="/">
-                <Image src="logo-white.svg" alt='logo' width={170} height={50}/>
+                <Image src="/logo-white.svg" alt='logo' width={170} height={50}/>
             </Link>
             <p>{footer.copyright}</p>
+            <div className={classes.socialLinks}>
+                {navItems.map(item=>{
+                    const icon = " ";
+                    return (
+                        <Button
+                        key={item.link.label}
+                        el='link'
+                        href={item.link.url}
+                        newTab={true}
+                        className={classes.socialLinkItem}
+                        >
+                            {item.link.label}
+                        </Button>
+                    )
+                })}
+            </div>
+                </div>
+            </Gutter>
         </div>
 
     </footer>
