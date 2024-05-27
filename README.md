@@ -13,15 +13,15 @@ https://github.com/shagunZ/TechHaven/assets/100477248/0a0c3946-45a9-42e3-a9d5-4e
 -Next.js 14: Ensures a highly performant and responsive user interface. \
 -Stripe: Provides secure and efficient payment processing. \
 -TypeScript: Enhances code quality and maintainability. \
--Payload CMS: Enables dynamic content management for an adaptable storefront. \
+-Payload CMS: Enables dynamic content management for an adaptable storefront. 
 
 # Key Features:
 
-- Seamless User Experience: Intuitive and visually appealing interface for a superior shopping experience. \
-- Advanced Admin Dashboard: Comprehensive tools for managing products, orders, and customer data. \
-- Dynamic Content Management: Easy-to-use CMS for updating content and managing inventory in real-time. \
-- Secure Payments: Integration with Stripe ensures safe and reliable transactions. \
-- TechHaven aims to elevate the standard of e-commerce platforms by combining advanced technologies with user-centric design, ensuring both administrators and customers have an optimal experience. \
+- Seamless User Experience: Intuitive and visually appealing interface for a superior shopping experience. 
+- Advanced Admin Dashboard: Comprehensive tools for managing products, orders, and customer data. 
+- Dynamic Content Management: Easy-to-use CMS for updating content and managing inventory in real-time. 
+- Secure Payments: Integration with Stripe ensures safe and reliable transactions. 
+- TechHaven aims to elevate the standard of e-commerce platforms by combining advanced technologies with user-centric design, ensuring both administrators and customers have an optimal experience. 
 
 # Payload E-Commerce Template
 nextjs + payload cms \
