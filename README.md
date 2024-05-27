@@ -1,3 +1,28 @@
+# Tech Haven:
+TechHaven is an intermediate project designed to revolutionize the e-commerce experience. This cutting-edge webshop not only boasts a seamless and visually appealing storefront but also features an advanced admin dashboard and Content Management System (CMS). Developed using Next.js 14, Stripe for secure payment processing, TypeScript for enhanced code quality, and Payload CMS for dynamic content management, TechHaven sets a new standard for e-commerce platforms.
+
+# Preview 
+
+
+https://github.com/shagunZ/TechHaven/assets/100477248/0a0c3946-45a9-42e3-a9d5-4e505c24d289
+
+
+
+# Technologies Used:
+
+-Next.js 14: Ensures a highly performant and responsive user interface. \
+-Stripe: Provides secure and efficient payment processing. \
+-TypeScript: Enhances code quality and maintainability. \
+-Payload CMS: Enables dynamic content management for an adaptable storefront. \
+
+# Key Features:
+
+- Seamless User Experience: Intuitive and visually appealing interface for a superior shopping experience. \
+- Advanced Admin Dashboard: Comprehensive tools for managing products, orders, and customer data. \
+- Dynamic Content Management: Easy-to-use CMS for updating content and managing inventory in real-time. \
+- Secure Payments: Integration with Stripe ensures safe and reliable transactions. \
+- TechHaven aims to elevate the standard of e-commerce platforms by combining advanced technologies with user-centric design, ensuring both administrators and customers have an optimal experience. \
+
 # Payload E-Commerce Template
 nextjs + payload cms \
 This is the official [Payload E-Commerce Template](https://github.com/payloadcms/payload/blob/main/templates/ecommerce). Use it to power e-commerce businesses and online stores of all sizes. This repo includes a fully-working backend, enterprise-grade admin panel, and a beautifully designed, production-ready website.
